@@ -8,6 +8,8 @@ import logoStatamic from '@/images/logos/statamic.svg'
 import logoStaticKit from '@/images/logos/statickit.svg'
 import logoTransistor from '@/images/logos/transistor.svg'
 import logoTuple from '@/images/logos/tuple.svg'
+import howItWorks from '@/images/screenshots/hero-how-it-works.png'
+import bigcommerceReturns from '@/images/screenshots/bigcommerce-62-returns.png'
 
 export function Hero() {
   return (
@@ -32,40 +34,39 @@ export function Hero() {
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">Find My Reviews</Button>
       </div>
-      <div className="mt-36 lg:mt-44">
-        <p className="font-display text-base text-slate-900">
-          Trusted by these six companies so far
-        </p>
-        <ul
-          role="list"
-          className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
-        >
-          {[
-            [
-              { name: 'Transistor', logo: logoTransistor },
-              { name: 'Tuple', logo: logoTuple },
-              { name: 'StaticKit', logo: logoStaticKit },
-            ],
-            [
-              { name: 'Mirage', logo: logoMirage },
-              { name: 'Laravel', logo: logoLaravel },
-              { name: 'Statamic', logo: logoStatamic },
-            ],
-          ].map((group, groupIndex) => (
-            <li key={groupIndex}>
-              <ul
-                role="list"
-                className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0"
-              >
-                {group.map((company) => (
-                  <li key={company.name} className="flex">
-                    <Image src={company.logo} alt={company.name} unoptimized />
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ul>
+      <div className="flex justify-center mt-6">
+        <Image
+          className="object-cover"
+          src={howItWorks}
+          alt=""
+          width={800}
+          height={56}
+        />
+      </div>
+      <div className="flex justify-center">
+        <Image
+          className="object-cover"
+          src={bigcommerceReturns}
+          alt=""
+          width={800}
+          height={56}
+        />
+      </div>
+      <div>
+        <dl class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
+          <div class="overflow-hidden rounded-lg bg-white px-6 py-5">
+            <dd class="mt-1 text-6xl font-semibold tracking-tight text-gray-900">350%</dd>
+            <dt class="truncate text-md font-medium text-gray-500">Better converting, unsolicited testimonials</dt>
+          </div>
+          <div class="overflow-hidden rounded-lg bg-white px-6 py-5">
+            <dd class="mt-1 text-6xl font-semibold tracking-tight text-gray-900">50+</dd>
+            <dt class="truncate text-md font-medium text-gray-500">Hours saved monthly on review collection</dt>
+          </div>
+          <div class="overflow-hidden rounded-lg bg-white px-6 py-5">
+            <dd class="mt-1 text-6xl font-semibold tracking-tight text-gray-900">10X</dd>
+            <dt class="truncate text-md font-medium text-gray-500">Know, Like, Trust from genuine reviews.</dt>
+          </div>
+        </dl>
       </div>
     </Container>
   )
