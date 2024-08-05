@@ -14,6 +14,12 @@ import bigcommerceReturns from '@/images/screenshots/bigcommerce-62-returns.png'
 export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32">
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 mb-6 text-xs font-medium text-gray-900 ring-1 ring-inset ring-gray-200">
+        <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-yellow-500">
+          <circle r={3} cx={3} cy={3} />
+        </svg>
+        Pre-launch offer: Limited time 30% discount for the first 50 users.
+      </span>
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         Collect reviews you{' '}
         <span className="relative whitespace-nowrap text-blue-600">
@@ -32,7 +38,7 @@ export function Hero() {
         Buzzwall scrapes social media and finds <b>user generated reviews of your product or service</b>
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Find My Reviews</Button>
+        <Button href="#pricing">Find My Reviews</Button>
       </div>
       <div className="flex justify-center mt-6">
         <Image

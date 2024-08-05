@@ -7,12 +7,12 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 
-export function SecondaryFeatures() {
+export function BuzzwallFeatures() {
   return (
     <section
-      id="secondary-features"
+      id="features"
       aria-label="Features for simplifying everyday business tasks"
-      className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32"
+      className="pb-14 sm:pb-20 lg:pb-32"
     >
       <Container>
         <div className="mx-auto max-w-3xl md:text-center">
