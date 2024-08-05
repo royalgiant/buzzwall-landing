@@ -2,6 +2,7 @@
 
 import { useId } from 'react'
 import Image from 'next/image'
+import { CheckIcon } from '@heroicons/react/24/solid'
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
 import clsx from 'clsx'
 
@@ -26,25 +27,93 @@ export function BuzzwallFeatures() {
         <div className="bg-white">
           <div className="mx-auto max-w-2xl px-4 py-12 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="space-y-16">
-              <div className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
-                <div className="mt-6 lg:col-span-5 lg:col-start-1 lg:row-start-1 lg:mt-0 xl:col-span-4">
-                  <h3 className="text-lg font-medium text-gray-900">Minimal and thoughtful</h3>
-                  <p className="mt-2 text-sm text-gray-500">Our laptop sleeve is compact and precisely fits 13&quot; devices. The zipper allows you to access the interior with ease, and the front pouch provides a convenient place for your charger cable.</p>
+              <div className="flex flex-col-reverse lg:grid lg:grid-cols-7 lg:items-center lg:gap-x-8">
+                <div className="mt-6 lg:col-span-6 lg:col-start-1 lg:row-start-1 lg:mt-0 xl:col-span-4">
+                  <span className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-slate-800 ring-1 ring-inset ring-slate-900/10">
+                    FOR BUILDERS
+                  </span>
+                  <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Get realtime alerts for new reviews</h3>
+                  <p className="mt-2 text-md tracking-tight text-slate-700">
+                    Input your keywords and Buzzwall will scrape for reviews across social media platforms
+                  </p>
+                  <ul role="list" className="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+                    <li  className="flex gap-x-3">
+                      <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
+                      <b>50+ hours saved from manually collecting reviews</b>
+                    </li>
+                    <li  className="flex gap-x-3">
+                      <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
+                      <b>Generate 62% more revenue / visitor</b>
+                    </li>
+                    <li  className="flex gap-x-3">
+                      <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
+                      <b>Supports TikTok, Instagram, and X</b>
+                    </li>
+                  </ul>
                 </div>
-                <div className="flex-auto lg:col-span-7 lg:col-start-6 lg:row-start-1 xl:col-span-8 xl:col-start-5">
+                <div className="flex-auto  lg:col-start-6 lg:row-start-1 xl:col-span-8 xl:col-start-5">
                   <div className="aspect-h-2 aspect-w-5 overflow-hidden rounded-lg bg-gray-100">
                     <img src="https://tailwindui.com/img/ecommerce-images/product-feature-07-detail-01.jpg" alt="White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull." className="object-cover object-center" />
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
+              <div className="flex flex-col-reverse lg:grid lg:grid-cols-7 lg:items-center lg:gap-x-8">
                 <div className="mt-6 lg:col-span-5 lg:col-start-8 lg:row-start-1 lg:mt-0 xl:col-span-4 xl:col-start-9">
-                  <h3 className="text-lg font-medium text-gray-900">Refined details</h3>
-                  <p className="mt-2 text-sm text-gray-500">We design every detail with the best materials and finishes. This laptop sleeve features durable canvas with double-stitched construction, a felt interior, and a high quality zipper that hold up to daily use.</p>
+                  <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-slate-900 ring-1 ring-inset ring-yellow-600/20">
+                    FOR BRANDS
+                  </span>
+                  <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Curate your testimonials for your brand</h3>
+                  <p className="mt-2 text-md tracking-tight text-slate-700">
+                    Build an embeddable Buzzwall to display your reviews on your website
+                  </p>
+                  <ul role="list" className="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+                    <li  className="flex gap-x-3">
+                      <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
+                      <b>Instant reputation boost from influencers' reviews</b>
+                    </li>
+                    <li  className="flex gap-x-3">
+                      <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
+                      <b>Realtime notifications of new reviews found</b>
+                    </li>
+                    <li  className="flex gap-x-3">
+                      <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
+                      <b>Limited time 30% discount</b>
+                    </li>
+                  </ul>
                 </div>
                 <div className="flex-auto lg:col-span-7 lg:col-start-1 lg:row-start-1 xl:col-span-8">
                   <div className="aspect-h-2 aspect-w-5 overflow-hidden rounded-lg bg-gray-100">
-                    <img src="https://tailwindui.com/img/ecommerce-images/product-feature-07-detail-02.jpg" alt="Detail of zipper pull with tan leather and silver rivet." className="object-cover object-center" />
+                    <img src="https://pinagenda.com/assets/generate_pinterest_brand_voice.gif" alt="Detail of zipper pull with tan leather and silver rivet." className="object-cover object-center" />
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col-reverse lg:grid lg:grid-cols-7 lg:items-center lg:gap-x-8">
+                <div className="mt-6 lg:col-span-5 lg:col-start-1 lg:row-start-1 lg:mt-0 xl:col-span-4">
+                  <span className="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-slate-900 ring-1 ring-inset ring-green-600/20">
+                    FOR AGENCIES
+                  </span>
+                  <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Track Review Performance with AI</h3>
+                  <p className="mt-2 text-md tracking-tight text-slate-700">
+                    Our AI tracks review peformance and notifies you of any reviews going viral
+                  </p>
+                  <ul role="list" className="mt-6 space-y-3 text-sm leading-6 text-gray-600">
+                    <li  className="flex gap-x-3">
+                      <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
+                      <b>Identify customer-influencers for partnerships</b>
+                    </li>
+                    <li  className="flex gap-x-3">
+                      <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
+                      <b>Find patterns for viral reviews</b>
+                    </li>
+                    <li  className="flex gap-x-3">
+                      <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
+                      <b>Viral posts found in realtime</b>
+                    </li>
+                  </ul>
+                </div>
+                <div className="flex-auto lg:col-span-7 lg:col-start-6 lg:row-start-1 xl:col-span-8 xl:col-start-5">
+                  <div className="aspect-h-2 aspect-w-5 overflow-hidden rounded-lg bg-gray-100">
+                    <img src="https://pinagenda.com/assets/generate_pinterest_brand_voice.gif" alt="White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull." className="object-cover object-center" />
                   </div>
                 </div>
               </div>

@@ -61,8 +61,8 @@ export function Hero() {
       <div>
         <dl class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
           <div class="overflow-hidden rounded-lg bg-white px-6 py-5">
-            <dd class="mt-1 text-6xl font-semibold tracking-tight text-gray-900">350%</dd>
-            <dt class="truncate text-md font-medium text-gray-500">Better converting, unsolicited testimonials</dt>
+            <dd class="mt-1 text-6xl font-semibold tracking-tight text-gray-900">380%</dd>
+            <dt class="truncate text-md font-medium text-gray-500">Better conversions for high-ticket items</dt>
           </div>
           <div class="overflow-hidden rounded-lg bg-white px-6 py-5">
             <dd class="mt-1 text-6xl font-semibold tracking-tight text-gray-900">50+</dd>
