@@ -5,6 +5,9 @@ import Image from 'next/image'
 import { CheckIcon } from '@heroicons/react/24/solid'
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
 import clsx from 'clsx'
+import bwAiSearching from '@/images/screenshots/buzzwall-ai-searching.png'
+import bwAiCuratedReviews from '@/images/screenshots/buzzwall-ai-curated-reviews.png'
+import bwAiRecommendations from '@/images/screenshots/buzzwall-ai-recommendations.png'
 
 import { Container } from '@/components/Container'
 
@@ -27,7 +30,7 @@ export function BuzzwallFeatures() {
         <div className="bg-white">
           <div className="mx-auto max-w-2xl px-4 py-12 sm:px-6 lg:max-w-7xl lg:px-8">
             <div className="space-y-16">
-              <div className="flex flex-col-reverse lg:grid lg:grid-cols-7 lg:items-center lg:gap-x-8">
+              <div className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
                 <div className="mt-6 lg:col-span-6 lg:col-start-1 lg:row-start-1 lg:mt-0 xl:col-span-4">
                   <span className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-slate-800 ring-1 ring-inset ring-slate-900/10">
                     FOR BUILDERS
@@ -52,19 +55,23 @@ export function BuzzwallFeatures() {
                   </ul>
                 </div>
                 <div className="flex-auto  lg:col-start-6 lg:row-start-1 xl:col-span-8 xl:col-start-5">
-                  <div className="aspect-h-2 aspect-w-5 overflow-hidden rounded-lg bg-gray-100">
-                    <img src="https://tailwindui.com/img/ecommerce-images/product-feature-07-detail-01.jpg" alt="White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull." className="object-cover object-center" />
-                  </div>
+                  <Image
+                    className="object-cover"
+                    src={bwAiSearching}
+                    alt=""
+                    width={900}
+                    height={56}
+                  />
                 </div>
               </div>
-              <div className="flex flex-col-reverse lg:grid lg:grid-cols-7 lg:items-center lg:gap-x-8">
+              <div className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
                 <div className="mt-6 lg:col-span-5 lg:col-start-8 lg:row-start-1 lg:mt-0 xl:col-span-4 xl:col-start-9">
                   <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-slate-900 ring-1 ring-inset ring-yellow-600/20">
                     FOR BRANDS
                   </span>
-                  <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Curate your testimonials for your brand</h3>
+                  <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Curate your reviews for your Buzzwall</h3>
                   <p className="mt-2 text-md tracking-tight text-slate-700">
-                    Build an embeddable Buzzwall to display your reviews on your website
+                    Build an embeddable Buzzwall to display your testimonials on your website
                   </p>
                   <ul role="list" className="mt-6 space-y-3 text-sm leading-6 text-gray-600">
                     <li  className="flex gap-x-3">
@@ -82,12 +89,16 @@ export function BuzzwallFeatures() {
                   </ul>
                 </div>
                 <div className="flex-auto lg:col-span-7 lg:col-start-1 lg:row-start-1 xl:col-span-8">
-                  <div className="aspect-h-2 aspect-w-5 overflow-hidden rounded-lg bg-gray-100">
-                    <img src="https://pinagenda.com/assets/generate_pinterest_brand_voice.gif" alt="Detail of zipper pull with tan leather and silver rivet." className="object-cover object-center" />
-                  </div>
+                  <Image
+                    className="object-cover"
+                    src={bwAiCuratedReviews}
+                    alt=""
+                    width={900}
+                    height={56}
+                  />
                 </div>
               </div>
-              <div className="flex flex-col-reverse lg:grid lg:grid-cols-7 lg:items-center lg:gap-x-8">
+              <div className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8">
                 <div className="mt-6 lg:col-span-5 lg:col-start-1 lg:row-start-1 lg:mt-0 xl:col-span-4">
                   <span className="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-slate-900 ring-1 ring-inset ring-green-600/20">
                     FOR AGENCIES
@@ -112,9 +123,13 @@ export function BuzzwallFeatures() {
                   </ul>
                 </div>
                 <div className="flex-auto lg:col-span-7 lg:col-start-6 lg:row-start-1 xl:col-span-8 xl:col-start-5">
-                  <div className="aspect-h-2 aspect-w-5 overflow-hidden rounded-lg bg-gray-100">
-                    <img src="https://pinagenda.com/assets/generate_pinterest_brand_voice.gif" alt="White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull." className="object-cover object-center" />
-                  </div>
+                  <Image
+                    className="object-cover"
+                    src={bwAiRecommendations}
+                    alt=""
+                    width={900}
+                    height={56}
+                  />
                 </div>
               </div>
             </div>
