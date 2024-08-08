@@ -1,6 +1,7 @@
 'use client'
 
 import { useId } from 'react'
+import { Button } from '@/components/Button'
 import Image from 'next/image'
 import { CheckIcon } from '@heroicons/react/24/solid'
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
@@ -53,6 +54,9 @@ export function BuzzwallFeatures() {
                       <b>Supports TikTok, Instagram, and X</b>
                     </li>
                   </ul>
+                  <div className="mt-6 flex gap-x-6">
+                    <Button href="#pricing">Join Now</Button>
+                  </div>
                 </div>
                 <div className="flex-auto  lg:col-start-6 lg:row-start-1 xl:col-span-8 xl:col-start-5">
                   <Image
@@ -87,6 +91,9 @@ export function BuzzwallFeatures() {
                       <b>Limited time 30% discount</b>
                     </li>
                   </ul>
+                  <div className="mt-6 flex gap-x-6">
+                    <Button href="#pricing">Find My Reviews</Button>
+                  </div>
                 </div>
                 <div className="flex-auto lg:col-span-7 lg:col-start-1 lg:row-start-1 xl:col-span-8">
                   <Image
@@ -121,6 +128,9 @@ export function BuzzwallFeatures() {
                       <b>Viral posts found in realtime</b>
                     </li>
                   </ul>
+                  <div className="mt-6 flex gap-x-6">
+                    <Button href="#pricing">Track Viral Reviews</Button>
+                  </div>
                 </div>
                 <div className="flex-auto lg:col-span-7 lg:col-start-6 lg:row-start-1 xl:col-span-8 xl:col-start-5">
                   <Image
