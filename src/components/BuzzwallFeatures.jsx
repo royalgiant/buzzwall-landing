@@ -36,7 +36,7 @@ export function BuzzwallFeatures() {
                   <span className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-slate-800 ring-1 ring-inset ring-slate-900/10">
                     FOR BUILDERS
                   </span>
-                  <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Get realtime alerts for new reviews</h3>
+                  <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Get notification alerts for new reviews</h3>
                   <p className="mt-2 text-md tracking-tight text-slate-700">
                     Input your keywords and Buzzwall will scrape for reviews across social media platforms
                   </p>
@@ -84,7 +84,7 @@ export function BuzzwallFeatures() {
                     </li>
                     <li  className="flex gap-x-3">
                       <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
-                      <b>Realtime notifications of new reviews found</b>
+                      <b>Notification alerts of new reviews found</b>
                     </li>
                     <li  className="flex gap-x-3">
                       <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
@@ -125,7 +125,7 @@ export function BuzzwallFeatures() {
                     </li>
                     <li  className="flex gap-x-3">
                       <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
-                      <b>Viral posts found in realtime</b>
+                      <b>Notification of viral reviews found</b>
                     </li>
                   </ul>
                   <div className="mt-6 flex gap-x-6">
