@@ -51,7 +51,7 @@ export function BuzzwallFeatures() {
                     </li>
                     <li  className="flex gap-x-3">
                       <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
-                      <b>Supports TikTok, Instagram, and X</b>
+                      <b>Supports TikTok, Instagram, and Youtube</b>
                     </li>
                   </ul>
                   <div className="mt-6 flex gap-x-6">

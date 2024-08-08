@@ -3,7 +3,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import TikTokLogo from '../images/logos/tiktok.png'
 import InstagramLogo from '../images/logos/instagram.png'
-import XLogo from '../images/logos/x.png'
+import YTLogo from '../images/logos/youtube.png'
 import { NavLink } from '@/components/NavLink'
 
 export function Platforms() {
@@ -37,7 +37,7 @@ export function Platforms() {
             />
             <Image
               className="h-24 w-24 object-cover"
-              src={XLogo}
+              src={YTLogo}
               alt=""
               width={800}
               height={56}
