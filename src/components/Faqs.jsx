@@ -1,60 +1,60 @@
 import Image from 'next/image'
-
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
+import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-faqs.jpg'
 
 const faqs = [
-  [
     {
-      question: 'Does TaxPal handle VAT?',
+      question: 'Do you have a free trial?',
       answer:
-        'Well no, but if you move your company offshore you can probably ignore it.',
+        'At the moment, we are in closed-beta and do not offer a free trial. This is intentional to ensure we can build & test with our early adopters and fine tune the product to our highest internal standards. As we scale the product to larger audiences, we plan to introduce a free trial.',
     },
     {
-      question: 'Can I pay for my subscription via purchase order?',
-      answer: 'Absolutely, we are happy to take your money in all forms.',
+      question: 'Do you offer refunds?',
+      answer: "Absolutely! We offer a full refund if you're not satisfied with the product and have not exceeded 7 days of use.",
     },
     {
-      question: 'How do I apply for a job at TaxPal?',
+      question: 'What happens if I max out my reviews?',
       answer:
-        'We only hire our customers, so subscribe for a minimum of 6 months and then let’s talk.',
+        'We provide "credit packs" to top up your review count so that Buzzwall can continue finding reviews for you.',
     },
-  ],
-  [
     {
-      question: 'What was that testimonial about tax fraud all about?',
+      question: 'Do credit packs expire?',
       answer:
-        'TaxPal is just a software application, ultimately your books are your responsibility.',
+        'Nope. Never.',
+    },
+    {
+      question: 'Are there really no subscriptions?',
+      answer:
+        'Not for early-adopters. NEVER! For your belief in me, you will be grandfathered into our launch prices forever.',
+    },
+    {
+      question: 'When will I start seeing reviews appear?',
+      answer:
+        'Once you add your keywords, Buzzwall will start scanning to get the most recent reviews for those keywords. Typically you sill start seeing leads flow in within the first 48 hours.',
     },
     {
       question:
-        'TaxPal sounds horrible but why do I still feel compelled to purchase?',
+        'Can you explain the "X approved reviews"?',
       answer:
-        'This is the power of excellent visual design. You just can’t resist it, no matter how poorly it actually functions.',
+        'We find your reviews for the given keywords. The ones you approve will be counted towards your approved reviews and stored in your account. Each approval deducts from your maximum approved reviews. Once you max it out, you can buy credit packs to "top up" your account with more approved reviews.',
+    },
+    {
+      question: 'What are keywords tracked?',
+      answer:
+      'The # of keywords you can input into Buzzwall to constantly track for new reviews. Each keyword will generate a list of reviews that you can approve or reject.',
+    },
+    {
+      question: "What's the difference between Basic and Advanced Reviews Tracking",
+      answer: "Buzzwall's AI recommendation on who you should reach out to for sponsorship/collaborations + future tracking features are included in advanced. Basic will only ever track review performance.",
     },
     {
       question:
-        'I found other companies called TaxPal, are you sure you can use this name?',
+        'What is the 30% lifetime discount?',
       answer:
-        'Honestly not sure at all. We haven’t actually incorporated or anything, we just thought it sounded cool and made this website.',
+        "We're offering our first 50 customers a 30% lifetime discount off our launch price as a thank you for the early support! You will be grandfathered into these prices forever.",
     },
-  ],
-  [
-    {
-      question: 'How do you generate reports?',
-      answer:
-        'You just tell us what data you need a report for, and we get our kids to create beautiful charts for you using only the finest crayons.',
-    },
-    {
-      question: 'Can we expect more inventory features?',
-      answer: 'In life it’s really better to never expect anything at all.',
-    },
-    {
-      question: 'I lost my password, how do I get into my account?',
-      answer:
-        'Send us an email and we will send you a copy of our latest password spreadsheet so you can find your information.',
-    },
-  ],
 ]
 
 export function Faqs() {
@@ -85,25 +85,25 @@ export function Faqs() {
             and if you’re lucky someone will get back to you.
           </p>
         </div>
-        <ul
-          role="list"
-          className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-3"
-        >
-          {faqs.map((column, columnIndex) => (
-            <li key={columnIndex}>
-              <ul role="list" className="flex flex-col gap-y-8">
-                {column.map((faq, faqIndex) => (
-                  <li key={faqIndex}>
-                    <h3 className="font-display text-lg leading-7 text-slate-900">
-                      {faq.question}
-                    </h3>
-                    <p className="mt-4 text-sm text-slate-700">{faq.answer}</p>
-                  </li>
-                ))}
-              </ul>
-            </li>
+        
+        <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
+          {faqs.map((faq) => (
+            <Disclosure key={faq.question} as="div" className="pt-6">
+              <dt>
+                <DisclosureButton className="group flex w-full items-start justify-between text-left text-gray-900">
+                  <span className="text-base font-semibold leading-7">{faq.question}</span>
+                  <span className="ml-6 flex h-7 items-center">
+                    <PlusSmallIcon aria-hidden="true" className="h-6 w-6 group-data-[open]:hidden" />
+                    <MinusSmallIcon aria-hidden="true" className="h-6 w-6 [.group:not([data-open])_&]:hidden" />
+                  </span>
+                </DisclosureButton>
+              </dt>
+              <DisclosurePanel as="dd" className="mt-2 pr-12">
+                <p className="text-base leading-7 text-gray-600">{faq.answer}</p>
+              </DisclosurePanel>
+            </Disclosure>
           ))}
-        </ul>
+        </dl>
       </Container>
     </section>
   )

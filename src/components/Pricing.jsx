@@ -160,7 +160,7 @@ export function Pricing() {
               'Up to 50 approved reviews',
               '10 keyword tracked',
               'Supports Instagram',
-              'Notification Alerts',
+              'Email Alerts',
             ]}
             xfeatures={[
               'Supports Youtube',
@@ -178,7 +178,7 @@ export function Pricing() {
               'Up to 200 approved reviews',
               '50 keywords tracked',
               'Supports Instagram',
-              'Notification Alerts',
+              'Email Alerts',
               'Supports Youtube',
               'Basic Reviews Tracking',
             ]}
@@ -195,7 +195,7 @@ export function Pricing() {
               'Up to 400 approved reviews',
               '200 keywords tracked',
               'Supports Instagram',
-              'Notification Alerts',
+              'Email Alerts',
               'Supports Youtube',
               'Advanced Reviews Tracking',
               'Supports Tiktok'
