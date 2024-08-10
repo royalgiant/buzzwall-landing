@@ -14,7 +14,7 @@ import bigcommerceReturns from '@/images/screenshots/bigcommerce-62-returns.png'
 export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32">
-      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 mb-6 text-xs font-medium text-gray-900 ring-1 ring-inset ring-gray-200">
+      <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 mb-6 text-md font-medium text-gray-900 ring-1 ring-inset ring-gray-200">
         <svg viewBox="0 0 6 6" aria-hidden="true" className="h-1.5 w-1.5 fill-yellow-500">
           <circle r={3} cx={3} cy={3} />
         </svg>
@@ -39,6 +39,16 @@ export function Hero() {
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="#pricing">Find My Reviews</Button>
+      </div>
+      <div class="mt-12 lg:mt-auto flex flex-col items-center">
+        <div class="flex -space-x-2 justify-center mt-6">
+          <img class="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1794410258237911040/DNxHMI49_400x400.jpg" alt="Paul" title="Paul" />
+          <img class="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1690996881940230144/XpA1kaNz_400x400.jpg" alt="Vijay" title="Vijay" />
+          <img class="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1792234113166168064/c8hjKIqs_400x400.jpg" alt="Alireza" title="Alireza" />
+          <img class="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1710124473062772736/zIuqVwMr_400x400.jpg" alt="Abishek" title="Abishek" />
+          <img class="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1490075268928655364/L-PTx3nW_400x400.jpg" alt="Peter" title="Peter" />
+        </div>
+        <p class="mt-4 text-base font-medium text-slate-900 text-sm text-center">Trusted by 25+ founders</p>
       </div>
       <div className="flex justify-center mt-6">
         <Image

@@ -75,7 +75,7 @@ export function BuzzwallHQFeatures() {
                   </span>
                   <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Curate your reviews for your BuzzwallHQ</h3>
                   <p className="mt-2 text-md tracking-tight text-slate-700">
-                    Build an embeddable BuzzwallHQ to display your testimonials on your website
+                    Build an embeddable Buzzwall to display your testimonials on your website
                   </p>
                   <ul role="list" className="mt-6 space-y-3 text-sm leading-6 text-gray-600">
                     <li  className="flex gap-x-3">
