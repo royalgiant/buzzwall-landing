@@ -5,8 +5,8 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - Buzzwall',
-    default: 'Buzzwall - Collect reviews you didn\'t know existed with AI',
+    template: '%s - BuzzwallHQ',
+    default: 'BuzzwallHQ - Collect reviews you didn\'t know existed with AI',
   },
   description:
     'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',

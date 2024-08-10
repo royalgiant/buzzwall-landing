@@ -4,7 +4,7 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
 import { Pricing } from '@/components/Pricing'
-import { BuzzwallFeatures } from '@/components/BuzzwallFeatures'
+import { BuzzwallHQFeatures } from '@/components/BuzzwallHQFeatures'
 import { Testimonials } from '@/components/Testimonials'
 import { Platforms } from '@/components/Platforms'
 
@@ -14,7 +14,7 @@ export default function Home() {
       <main>
         <Header />
         <Hero />
-        <BuzzwallFeatures />
+        <BuzzwallHQFeatures />
         <Pricing />
         <Faqs />
         <Platforms />

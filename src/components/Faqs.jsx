@@ -17,7 +17,7 @@ const faqs = [
     {
       question: 'What happens if I max out my reviews?',
       answer:
-        'We provide "credit packs" to top up your review count so that Buzzwall can continue finding reviews for you.',
+        'We provide "credit packs" to top up your review count so that BuzzwallHQ can continue finding reviews for you.',
     },
     {
       question: 'Do credit packs expire?',
@@ -32,7 +32,7 @@ const faqs = [
     {
       question: 'When will I start seeing reviews appear?',
       answer:
-        'Once you add your keywords, Buzzwall will start scanning to get the most recent reviews for those keywords. Typically you sill start seeing leads flow in within the first 48 hours.',
+        'Once you add your keywords, BuzzwallHQ will start scanning to get the most recent reviews for those keywords. Typically you sill start seeing leads flow in within the first 48 hours.',
     },
     {
       question:
@@ -43,11 +43,11 @@ const faqs = [
     {
       question: 'What are keywords tracked?',
       answer:
-      'The # of keywords you can input into Buzzwall to constantly track for new reviews. Each keyword will generate a list of reviews that you can approve or reject.',
+      'The # of keywords you can input into BuzzwallHQ to constantly track for new reviews. Each keyword will generate a list of reviews that you can approve or reject.',
     },
     {
       question: "What's the difference between Basic and Advanced Reviews Tracking",
-      answer: "Buzzwall's AI recommendation on who you should reach out to for sponsorship/collaborations + future tracking features are included in advanced. Basic will only ever track review performance.",
+      answer: "BuzzwallHQ's AI recommendation on who you should reach out to for sponsorship/collaborations + future tracking features are included in advanced. Basic will only ever track review performance.",
     },
     {
       question:

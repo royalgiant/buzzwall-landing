@@ -19,7 +19,7 @@ export function Footer() {
         </div>
         <div className="flex flex-col items-center border-t border-slate-400/10 py-10 sm:flex-row-reverse sm:justify-between">
           <div className="flex gap-x-6">
-            <Link href="https://x.com/donaldklee" className="group" aria-label="TaxPal on X" target="_blank">
+            <Link href="https://x.com/donaldklee" className="group" aria-label="BuzzwallHQ on X" target="_blank">
               <svg
                 className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700"
                 aria-hidden="true"
@@ -30,7 +30,7 @@ export function Footer() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()} Buzzwall. All rights
+            Copyright &copy; {new Date().getFullYear()} BuzzwallHQ. All rights
             reserved.
           </p>
         </div>

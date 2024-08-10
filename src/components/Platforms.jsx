@@ -45,7 +45,7 @@ export function Platforms() {
           </div>
         </div>
         <h4 className="mx-auto max-w-4xl font-display text-3xl font-medium tracking-tight text-slate-900 sm:text-4xl text-center mt-36">
-          Get started with Buzzwall{' '}
+          Get started with BuzzwallHQ{' '}
           <span className="relative whitespace-nowrap text-blue-600">
             <svg
               aria-hidden="true"

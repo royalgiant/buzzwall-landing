@@ -12,7 +12,7 @@ import bwAiRecommendations from '@/images/screenshots/buzzwall-ai-recommendation
 
 import { Container } from '@/components/Container'
 
-export function BuzzwallFeatures() {
+export function BuzzwallHQFeatures() {
   return (
     <section
       id="features"
@@ -25,7 +25,7 @@ export function BuzzwallFeatures() {
             Ready to wake up to new reviews daily?
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Buzzwall saves you <b>50+ hours / mo</b> by finding user-generated reviews for your product or service
+            BuzzwallHQ saves you <b>50+ hours / mo</b> by finding user-generated reviews for your product or service
           </p>
         </div>
         <div className="bg-white">
@@ -38,7 +38,7 @@ export function BuzzwallFeatures() {
                   </span>
                   <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Get email alerts for new reviews</h3>
                   <p className="mt-2 text-md tracking-tight text-slate-700">
-                    Input your keywords and Buzzwall will scrape for reviews across social media platforms
+                    Input your keywords and BuzzwallHQ will scrape for reviews across social media platforms
                   </p>
                   <ul role="list" className="mt-6 space-y-3 text-sm leading-6 text-gray-600">
                     <li  className="flex gap-x-3">
@@ -73,9 +73,9 @@ export function BuzzwallFeatures() {
                   <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-slate-900 ring-1 ring-inset ring-yellow-600/20">
                     FOR BRANDS
                   </span>
-                  <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Curate your reviews for your Buzzwall</h3>
+                  <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Curate your reviews for your BuzzwallHQ</h3>
                   <p className="mt-2 text-md tracking-tight text-slate-700">
-                    Build an embeddable Buzzwall to display your testimonials on your website
+                    Build an embeddable BuzzwallHQ to display your testimonials on your website
                   </p>
                   <ul role="list" className="mt-6 space-y-3 text-sm leading-6 text-gray-600">
                     <li  className="flex gap-x-3">

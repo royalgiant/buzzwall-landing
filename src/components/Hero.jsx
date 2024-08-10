@@ -35,7 +35,7 @@ export function Hero() {
         </span>{' '}
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Buzzwall scrapes social media and finds <b>user generated reviews of your product or service</b>
+        BuzzwallHQ scrapes social media and finds <b>user generated reviews of your product or service</b>
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="#pricing">Find My Reviews</Button>
