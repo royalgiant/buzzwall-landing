@@ -2,6 +2,7 @@ import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
+// import { CheckoutButton } from '@/components/CheckoutButton'
 
 function SwirlyDoodle(props) {
   return (
@@ -76,7 +77,7 @@ function XIcon({ className, ...props }) {
   )
 }
 
-function Plan({ name, price, description, href, features, xfeatures, featured = false }) {
+function Plan({ name, price, price_id, description, href, features, xfeatures, featured = false }) {
   return (
     <section
       className={clsx(
@@ -124,7 +125,7 @@ function Plan({ name, price, description, href, features, xfeatures, featured = 
         className="mt-8"
         aria-label={`Get started with the ${name} plan for ${price}`}
       >
-        Get started
+        Checkout
       </Button>
     </section>
   )
