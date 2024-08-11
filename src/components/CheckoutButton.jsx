@@ -1,11 +1,9 @@
 "use client";
-
 import { loadStripe } from '@stripe/stripe-js';
 
-const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY);
-console.log("Stripe Publishable Key:", process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY);
+const stripePromise = loadStripe(process.env.STRIPE_PUBLISHABLE_KEY);
 
-export default function CheckoutButton({ priceId }) {
+export function CheckoutButton({ priceId }) {
   const handleClick = async () => {
     const stripe = await stripePromise;
     await stripe.redirectToCheckout({
@@ -18,7 +16,7 @@ export default function CheckoutButton({ priceId }) {
 
   return (
     <button onClick={handleClick}>
-      Checkout
+      Get Started
     </button>
   );
 }

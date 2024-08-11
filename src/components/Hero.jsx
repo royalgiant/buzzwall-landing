@@ -40,15 +40,15 @@ export function Hero() {
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="#pricing">Find My Reviews</Button>
       </div>
-      <div class="mt-12 lg:mt-auto flex flex-col items-center">
-        <div class="flex -space-x-2 justify-center mt-6">
-          <img class="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1794410258237911040/DNxHMI49_400x400.jpg" alt="Paul" title="Paul" />
-          <img class="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1690996881940230144/XpA1kaNz_400x400.jpg" alt="Vijay" title="Vijay" />
-          <img class="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1792234113166168064/c8hjKIqs_400x400.jpg" alt="Alireza" title="Alireza" />
-          <img class="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1710124473062772736/zIuqVwMr_400x400.jpg" alt="Abishek" title="Abishek" />
-          <img class="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1490075268928655364/L-PTx3nW_400x400.jpg" alt="Peter" title="Peter" />
+      <div className="mt-12 lg:mt-auto flex flex-col items-center">
+        <div className="flex -space-x-2 justify-center mt-6">
+          <img className="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1794410258237911040/DNxHMI49_400x400.jpg" alt="Paul" title="Paul" />
+          <img className="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1690996881940230144/XpA1kaNz_400x400.jpg" alt="Vijay" title="Vijay" />
+          <img className="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1792234113166168064/c8hjKIqs_400x400.jpg" alt="Alireza" title="Alireza" />
+          <img className="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1710124473062772736/zIuqVwMr_400x400.jpg" alt="Abishek" title="Abishek" />
+          <img className="inline-block w-10 h-10 rounded-full sm:w-10 sm:h-10 ring-[3px] ring-white" src="https://pbs.twimg.com/profile_images/1490075268928655364/L-PTx3nW_400x400.jpg" alt="Peter" title="Peter" />
         </div>
-        <p class="mt-4 text-base font-medium text-slate-900 text-sm text-center">Trusted by 25+ founders</p>
+        <p className="mt-4 text-base font-medium text-slate-900 text-sm text-center">Trusted by 25+ founders</p>
       </div>
       <div className="flex justify-center mt-6">
         <Image
@@ -69,18 +69,18 @@ export function Hero() {
         />
       </div>
       <div>
-        <dl class="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
-          <div class="overflow-hidden rounded-lg bg-white px-6 py-5">
-            <dd class="mt-1 text-6xl font-semibold tracking-tight text-gray-900">380%</dd>
-            <dt class="truncate text-md font-medium text-gray-500">Better conversions for high-ticket items</dt>
+        <dl className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-3">
+          <div className="overflow-hidden rounded-lg bg-white px-6 py-5">
+            <dd className="mt-1 text-6xl font-semibold tracking-tight text-gray-900">380%</dd>
+            <dt className="truncate text-md font-medium text-gray-500">Better conversions for high-ticket items</dt>
           </div>
-          <div class="overflow-hidden rounded-lg bg-white px-6 py-5">
-            <dd class="mt-1 text-6xl font-semibold tracking-tight text-gray-900">50+</dd>
-            <dt class="truncate text-md font-medium text-gray-500">Hours saved monthly on review collection</dt>
+          <div className="overflow-hidden rounded-lg bg-white px-6 py-5">
+            <dd className="mt-1 text-6xl font-semibold tracking-tight text-gray-900">50+</dd>
+            <dt className="truncate text-md font-medium text-gray-500">Hours saved monthly on review collection</dt>
           </div>
-          <div class="overflow-hidden rounded-lg bg-white px-6 py-5">
-            <dd class="mt-1 text-6xl font-semibold tracking-tight text-gray-900">10X</dd>
-            <dt class="truncate text-md font-medium text-gray-500">Know, Like, Trust from genuine reviews.</dt>
+          <div className="overflow-hidden rounded-lg bg-white px-6 py-5">
+            <dd className="mt-1 text-6xl font-semibold tracking-tight text-gray-900">10X</dd>
+            <dt className="truncate text-md font-medium text-gray-500">Know, Like, Trust from genuine reviews.</dt>
           </div>
         </dl>
       </div>
