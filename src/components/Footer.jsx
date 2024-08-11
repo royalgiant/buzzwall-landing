@@ -14,6 +14,8 @@ export function Footer() {
               <NavLink href="#features">Features</NavLink>
               <NavLink href="#pricing">Pricing</NavLink>
               <NavLink href="#faq">FAQ</NavLink>
+              <NavLink href="/terms">Terms & Conditions</NavLink>
+              <NavLink href="/privacy">Privacy Policy</NavLink>
             </div>
           </nav>
         </div>

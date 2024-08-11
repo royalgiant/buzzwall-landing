@@ -151,7 +151,7 @@ export function Pricing() {
             href="/register"
             features={[
               'Up to 50 approved reviews',
-              '10 keyword tracked',
+              '10 keyword tracked bi-weekly',
               'Supports Instagram',
               'Email Alerts',
             ]}
@@ -170,7 +170,7 @@ export function Pricing() {
             href="/register"
             features={[
               'Up to 200 approved reviews',
-              '50 keywords tracked',
+              '50 keywords tracked weekly',
               'Supports Instagram',
               'Email Alerts',
               'Supports Youtube',
@@ -188,7 +188,7 @@ export function Pricing() {
             href="/register"
             features={[
               'Up to 400 approved reviews',
-              '200 keywords tracked',
+              '100 keywords tracked daily',
               'Supports Instagram',
               'Email Alerts',
               'Supports Youtube',
