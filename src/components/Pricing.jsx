@@ -146,7 +146,7 @@ export function Pricing() {
           <Plan
             name="Starter"
             price="$129"
-            price_id="price_1PmON1JrQ8isZeZSKdri1ncT"
+            price_id={process.env.STARTER_PRICE}
             description="Good for the individual who is self-employed and just getting started."
             href="/register"
             features={[
@@ -165,7 +165,7 @@ export function Pricing() {
             featured
             name="Launch"
             price="$199"
-            price_id="price_1PmONSJrQ8isZeZSlnlKmgZf"
+            price_id={process.env.LAUNCH_PRICE}
             description="Perfect for startups, small, and medium sized businesses."
             href="/register"
             features={[
@@ -183,7 +183,7 @@ export function Pricing() {
           <Plan
             name="Grow"
             price="$249"
-            price_id="price_1PmONoJrQ8isZeZSHIi84Wc0"
+            price_id={process.env.GROW_PRICE}
             description="For even the biggest enterprise companies."
             href="/register"
             features={[

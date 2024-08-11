@@ -12,7 +12,7 @@ const faqs = [
     },
     {
       question: 'Do you offer refunds?',
-      answer: "Absolutely! We offer a full refund if you're not satisfied with the product and have not exceeded 7 days of use.",
+      answer: "Absolutely! We offer a 30 days full refund, from the time you get access, if you're not satisfied with the product. No questions asked!",
     },
     {
       question: 'What happens if I max out my reviews?',
