@@ -1,8 +1,7 @@
 import clsx from 'clsx'
 
-import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-// import { CheckoutButton } from '@/components/CheckoutButton'
+import { CheckoutButton } from '@/components/CheckoutButton'
 
 function SwirlyDoodle(props) {
   return (
@@ -118,15 +117,7 @@ function Plan({ name, price, price_id, description, href, features, xfeatures, f
           </li>
         ))}
       </ul>
-      <Button
-        href={href}
-        variant={featured ? 'solid' : 'outline'}
-        color="white"
-        className="mt-8"
-        aria-label={`Get started with the ${name} plan for ${price}`}
-      >
-        Checkout
-      </Button>
+      <CheckoutButton priceId={price_id} featured={featured} />
     </section>
   )
 }
@@ -155,6 +146,7 @@ export function Pricing() {
           <Plan
             name="Starter"
             price="$129"
+            price_id="price_1PmON1JrQ8isZeZSKdri1ncT"
             description="Good for the individual who is self-employed and just getting started."
             href="/register"
             features={[
@@ -173,6 +165,7 @@ export function Pricing() {
             featured
             name="Launch"
             price="$199"
+            price_id="price_1PmONSJrQ8isZeZSlnlKmgZf"
             description="Perfect for startups, small, and medium sized businesses."
             href="/register"
             features={[
@@ -190,6 +183,7 @@ export function Pricing() {
           <Plan
             name="Grow"
             price="$249"
+            price_id="price_1PmONoJrQ8isZeZSHIi84Wc0"
             description="For even the biggest enterprise companies."
             href="/register"
             features={[
