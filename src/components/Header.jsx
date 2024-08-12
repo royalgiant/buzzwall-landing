@@ -13,6 +13,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
+import { GoogleAnalytics } from "nextjs-google-analytics";
 
 function MobileNavLink({ href, children }) {
   return (
@@ -79,6 +80,7 @@ function MobileNavigation() {
 export function Header() {
   return (
     <header className="py-10">
+      <GoogleAnalytics trackPageViews />
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
