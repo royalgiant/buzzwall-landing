@@ -20,8 +20,8 @@ export function Hero() {
         </svg>
         Pre-launch offer: Limited time 30% discount for the first 50 users.
       </span>
-      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-        Collect reviews you didn't know{' '}
+      <h1 className="mx-auto max-w-5xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+        Collect testimonials you didn't know{' '}
         <span className="relative whitespace-nowrap text-blue-600">
           <svg
             aria-hidden="true"
@@ -35,7 +35,7 @@ export function Hero() {
         </span>{' '}
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        BuzzwallHQ scrapes social media and finds <b>user generated reviews of your product or service</b>
+        BuzzwallHQ scrapes social media and finds <b>customer text & video reviews of your product or service</b>
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="#pricing">Find My Reviews</Button>
@@ -80,7 +80,7 @@ export function Hero() {
           </div>
           <div className="overflow-hidden rounded-lg bg-white px-6 py-5">
             <dd className="mt-1 text-6xl font-semibold tracking-tight text-gray-900">10X</dd>
-            <dt className="truncate text-md font-medium text-gray-500">Know, Like, Trust from genuine reviews.</dt>
+            <dt className="truncate text-md font-medium text-gray-500">Social proof from genuine reviews.</dt>
           </div>
         </dl>
       </div>

@@ -59,7 +59,7 @@ const faqs = [
       question:
         'Why don\'t I have access immediately?',
       answer:
-        "In full transparency, we're in closed-beta. The product is still validating while we build out the features. We want to ensure we can provide the best experience for our early adopters and get feedback to improve our offerings. This is the best price you'll ever get for BuzzwallHQ. Lifetime deal will never be offered again. We project full access to be available by mid-September 2024.",
+        "In full transparency, we're in closed-beta. The product is still validating while we build out the features. We want to ensure we can provide the best experience for our early adopters and get feedback to improve our offerings. This is the best price you'll ever get for BuzzwallHQ. Lifetime deal will never be offered again.",
     },
 ]
 

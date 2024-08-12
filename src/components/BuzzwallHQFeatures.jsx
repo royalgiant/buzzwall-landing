@@ -25,7 +25,7 @@ export function BuzzwallHQFeatures() {
             Ready to wake up to new reviews daily?
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            BuzzwallHQ saves you <b>50+ hours / mo</b> by finding user-generated reviews for your product or service
+            BuzzwallHQ, your go-to social proof tool, saves you <b>50+ hours / mo</b> by finding text and video testimonials of your product or service
           </p>
         </div>
         <div className="bg-white">
@@ -38,12 +38,12 @@ export function BuzzwallHQFeatures() {
                   </span>
                   <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Get email alerts for new reviews</h3>
                   <p className="mt-2 text-md tracking-tight text-slate-700">
-                    Input your keywords and BuzzwallHQ will scrape for reviews across social media platforms
+                    Input your keywords and BuzzwallHQ will collect client reviews across social media platforms
                   </p>
                   <ul role="list" className="mt-6 space-y-3 text-sm leading-6 text-gray-600">
                     <li  className="flex gap-x-3">
                       <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
-                      <b>50+ hours saved from manually collecting reviews</b>
+                      <b>50+ hours saved from manually collecting testimonials</b>
                     </li>
                     <li  className="flex gap-x-3">
                       <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
@@ -73,7 +73,7 @@ export function BuzzwallHQFeatures() {
                   <span className="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-slate-900 ring-1 ring-inset ring-yellow-600/20">
                     FOR BRANDS
                   </span>
-                  <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Curate your reviews for your BuzzwallHQ</h3>
+                  <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Collect your reviews for your BuzzwallHQ</h3>
                   <p className="mt-2 text-md tracking-tight text-slate-700">
                     Build an embeddable Buzzwall to display your testimonials on your website
                   </p>
@@ -110,9 +110,9 @@ export function BuzzwallHQFeatures() {
                   <span className="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-slate-900 ring-1 ring-inset ring-green-600/20">
                     FOR AGENCIES
                   </span>
-                  <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Track Review Performance with AI</h3>
+                  <h3 className="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Track Customer Review Performance with AI</h3>
                   <p className="mt-2 text-md tracking-tight text-slate-700">
-                    Our AI tracks review peformance and notifies you of any reviews going viral
+                    Our social proof AI widget tracks peformance and alerts you of any customer reviews going viral
                   </p>
                   <ul role="list" className="mt-6 space-y-3 text-sm leading-6 text-gray-600">
                     <li  className="flex gap-x-3">
@@ -121,7 +121,7 @@ export function BuzzwallHQFeatures() {
                     </li>
                     <li  className="flex gap-x-3">
                       <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
-                      <b>Find patterns for viral reviews</b>
+                      <b>Find viral text and video testimonials</b>
                     </li>
                     <li  className="flex gap-x-3">
                       <CheckIcon aria-hidden="true" className="h-6 w-5 flex-none text-slate-900" />
