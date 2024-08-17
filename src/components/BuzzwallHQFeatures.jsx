@@ -6,9 +6,9 @@ import Image from 'next/image'
 import { CheckIcon } from '@heroicons/react/24/solid'
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
 import clsx from 'clsx'
-import bwAiSearching from '@/images/screenshots/buzzwall-ai-searching.png'
-import bwAiCuratedReviews from '@/images/screenshots/buzzwall-ai-curated-reviews.png'
-import bwAiRecommendations from '@/images/screenshots/buzzwall-ai-recommendations.png'
+import bwAiSearching from '@/images/screenshots/buzzwall-ai-searching-2.png'
+import bwAiCuratedReviews from '@/images/screenshots/buzzwall-ai-curated-reviews-2.png'
+import bwAiRecommendations from '@/images/screenshots/buzzwall-ai-recommendations-2.png'
 
 import { Container } from '@/components/Container'
 

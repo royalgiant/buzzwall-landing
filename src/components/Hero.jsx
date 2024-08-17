@@ -8,7 +8,7 @@ import logoStatamic from '@/images/logos/statamic.svg'
 import logoStaticKit from '@/images/logos/statickit.svg'
 import logoTransistor from '@/images/logos/transistor.svg'
 import logoTuple from '@/images/logos/tuple.svg'
-import howItWorks from '@/images/screenshots/hero-how-it-works.png'
+import howItWorks from '@/images/screenshots/hero-how-it-works-2.png'
 import bigcommerceReturns from '@/images/screenshots/bigcommerce-62-returns.png'
 
 export function Hero() {
